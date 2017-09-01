@@ -106,7 +106,6 @@
     //NSLog(@"image %@",image);
     
     [parameters removeObjectForKey:@"filedata"];
-    //  NSString *strurl =@"http://192.168.1.44/fermax/ver1/api/web/common/addmedia";
     
     NSString *apiPath = [self requestURLFor:WSAPIAddMedia];
    
