@@ -120,9 +120,9 @@ class WSClient: NSObject {
         let requestHeader: HTTPHeaders = [
             "header_token": (UserDefaults.standard.string(forKey: "HeaderToken")!),
             "device_type": "1",
-            "device_token": Constant.Common.DeviceToken,
+            "device_token": "",
             "app_version": appVersion!,
-            "app_type":"1",                 //1-UserApp,2-DriverApp
+            "app_type":"1",                 
             "Accept": "application/json"
         ]
         print("Header : \(requestHeader)")
@@ -176,7 +176,7 @@ class WSClient: NSObject {
         
         print("Get Requset URL : \(apipath)")
         
-        let headers: HTTPHeaders = ["token":"69723e64-b6dc-11e6-9927-02330b50d5d7" , "device_type":"1" , "app_version":"1"]
+        let headers: HTTPHeaders = ["token":"" , "device_type":"1" , "app_version":"1"]
         
         Alamofire.request(apipath, method: .get, parameters: ["":""], encoding: URLEncoding.default, headers: headers)
             .responseJSON { response in
@@ -237,11 +237,11 @@ class WSClient: NSObject {
         }
         
         let requestHeader: HTTPHeaders = [
-            //"header_token": (UserDefaults.standard.string(forKey: "HeaderToken")!),
+            //"header_token": (UserDefaults.standard.string(forKey: "XYZ")!),
             "device_type": "1",
-            //"device_token": Constant.GlobalVars.DeviceToken,
+            //"device_token": "",
             "app_version": appVersion!,
-            "app_type":"1",                 //1-UserApp,2-DriverApp
+            "app_type":"1",                 //
             "Accept": "application/json"
         ]
         
