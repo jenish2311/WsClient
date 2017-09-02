@@ -2,8 +2,8 @@
 //  UIImage+Resize.m
 //  BaseCode
 //
-//  Created by Mac33 on 30/09/15.
-//  Copyright © 2015 E2logy. All rights reserved.
+//  Created by jenish on 02/09/17.
+//  Copyright © 2017 jenish. All rights reserved.
 //
 
 #import "UIImage+Resize.h"
