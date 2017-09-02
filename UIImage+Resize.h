@@ -2,17 +2,17 @@
 //  UIImage+Resize.h
 //  BaseCode
 //
-//  Created by Mac33 on 30/09/15.
-//  Copyright © 2015 E2logy. All rights reserved.
+//  Created by jenish on 02/09/17.
+//  Copyright © 2012 jenish. All rights reserved.
 
 /*!
  @header        UIImage+Resize.h
  
  @brief         UIImage+Resize.h extends UIImage and Provides methods for resizing of UIImage
  
- @author        iPlus by Fermax
+ @author        jenish
  
- @copyright     Fermax Asia Pacific Pte Ltd
+ @copyright     jenish
  
  @version       1.01
  */
